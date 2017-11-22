@@ -2,6 +2,7 @@ baseURL = "http://maklog.io/"
 languageCode = "en-us"
 title = "Mak's blog"
 theme = "minimal"
+disqusShortname = "username"
 googleAnalytics = "UA-108378118-1"
 
 [params]
@@ -11,7 +12,7 @@ googleAnalytics = "UA-108378118-1"
     accent = "red"
     showBorder = true
     backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
+    font = "Lora" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
