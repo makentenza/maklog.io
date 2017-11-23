@@ -2,7 +2,7 @@ baseURL = "http://maklog.io/"
 languageCode = "en-us"
 title = "Mak's blog"
 theme = "minimal"
-disqusShortname = "username"
+disqusShortname = "mak"
 googleAnalytics = "UA-108378118-1"
 
 [params]
@@ -10,7 +10,7 @@ googleAnalytics = "UA-108378118-1"
     description = "Mak's Personal blog"
     githubUsername = "#makentenza"
     accent = "red"
-    showBorder = true
+    showBorder = false
     backgroundColor = "white"
     font = "Lora" # should match the name on Google Fonts!
     highlight = true
