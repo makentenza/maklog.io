@@ -12,12 +12,12 @@ and Continuous Integration and Continuous Delivery. Of course, everyone wants to
 
 During the Conference, I had the chance to meet some Red Hat colleagues and folks from former companies I worked for, and discuss how they are taking advantage these days from Cloud and Container technologies. Many of them came from different industries and it was interesting to notice that even in industries using old monolithic and old fashion infra, the container "fever" is starting to knock on their doors and they are willing to open them. The digital transformation is definitely a thing already happening and not just another fancy word.
 
-I had the opportunity to [collaborate](http://sched.co/BxJy target="_blank) with [Scott McCarty](https://twitter.com/fatherlinux target="_blank) during his presentation around Linux Container Internals. The material used during the presentation can be found at [this link](https://schd.ws/hosted_files/osseu17/43/Container%20Internals%20Lab%20Presentation.pdf){:target="_blank"}. Feel free to ping [me](https://twitter.com/makentenza){:target="_blank"} or [Scott](https://twitter.com/fatherlinux){:target="_blank"} for any question on this topic.
+I had the opportunity to [collaborate](http://sched.co/BxJy) with [Scott McCarty](https://twitter.com/fatherlinux) during his presentation around Linux Container Internals. The material used during the presentation can be found at [this link](https://schd.ws/hosted_files/osseu17/43/Container%20Internals%20Lab%20Presentation.pdf). Feel free to ping [me](https://twitter.com/makentenza) or [Scott](https://twitter.com/fatherlinux) for any question on this topic.
 
-Regarding getting traffic into your Kubernetes Cluster I liked the talk [Effective ingress traffic management with traefik](https://osseu17.sched.com/event/BxI0/effective-ingress-traffic-management-with-traefik-emile-vauge-containous){:target="_blank"}. The [product](https://traefik.io/) looks promising. We will see more of this during the following months with [Istio](https://istio.io/){:target="_blank"} coming to OpenShift in Feb/Mar as Tech Preview.
+Regarding getting traffic into your Kubernetes Cluster I liked the talk [Effective ingress traffic management with traefik](https://osseu17.sched.com/event/BxI0/effective-ingress-traffic-management-with-traefik-emile-vauge-containous). The [product](https://traefik.io/) looks promising. We will see more of this during the following months with [Istio](https://istio.io/target="_blank) coming to OpenShift in Feb/Mar as Tech Preview.
 
 Some links from the event:
 
-  - [Website](http://events.linuxfoundation.org/events/archive/2017/open-source-summit-europe){:target="_blank"}
-  - [Pictures](https://www.flickr.com/photos/linuxfoundation/sets/72157661789269468){:target="_blank"}
-  - [Videos](https://www.youtube.com/playlist?list=PLbzoR-pLrL6pISWAq-1cXP4_UZAyRtesk){:target="_blank"}
+  - [Website](http://events.linuxfoundation.org/events/archive/2017/open-source-summit-europe)
+  - [Pictures](https://www.flickr.com/photos/linuxfoundation/sets/72157661789269468)
+  - [Videos](https://www.youtube.com/playlist?list=PLbzoR-pLrL6pISWAq-1cXP4_UZAyRtesk)
