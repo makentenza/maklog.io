@@ -24,12 +24,15 @@ The [cronjob-aws-ocp-snap.yaml](https://github.com/makentenza/aws-ocp-snap/blob/
 To deploy this template, run the following:
 
 1. Create a project in which to host your jobs.
+
+	```shell
+	$ oc new-project <project>
 	```
-	oc new-project <project>
-	```
+
 2. Instantiate the template
-	```
-	oc process -f cronjob-aws-ocp-snap.yaml \
+
+	```shell
+	$ oc process -f cronjob-aws-ocp-snap.yaml \
 	  -p NAMESPACE="<project name from previous step>" \
 	  -p AWS_ACCESS_KEY_ID="AWS Access Key ID (base64 format)" \
 	  -p AWS_SECRET_ACCESS_KEY="WS Secret Access Key ID (base64 format)" \
@@ -37,6 +40,7 @@ To deploy this template, run the following:
 		-p NSPACE="Namespace where Persistent Volumes are defined (can be ALL)" \
 		-p VOL="Persistent Volume Claim name (can be ALL)" \
 		| oc create -f-
+	```
 
 You should get a CronJob configured in your project:
 
