@@ -1,7 +1,7 @@
 ---
 title: "Creating snapshots in AWS for OpenShift Persistent Volumes"
 date: 2017-11-24
-tags: ["aws", "openshift", "pvs", "pvc", "snapshots", "backup"]
+tags: ["aws", "openshift", "pv", "pvc", "snapshot", "backup"]
 draft: false
 ---
 Even microservices where thought to be used as stateless services, the requirement to persist the data is growing exponentially. Kubernetes and OpenShift facilitate this through [persistent volumes](https://docs.openshift.com/container-platform/latest/architecture/additional_concepts/storage.html#persistent-volumes) and [persistent volume claims](https://docs.openshift.com/container-platform/latest/architecture/additional_concepts/storage.html#persistent-volume-claims).
