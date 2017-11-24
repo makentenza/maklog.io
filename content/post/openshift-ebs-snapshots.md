@@ -103,6 +103,6 @@ If everything works as expected, you would see how the snaphots were created on 
 
 You should see same info in your AWS console:
 
-![alt text](img/aws-snap-01.png "EBS snapshots")
+![alt text](/static/aws-snap-01.png "EBS snapshots")
 
 Enjoy!
