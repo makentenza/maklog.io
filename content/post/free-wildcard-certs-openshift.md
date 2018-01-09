@@ -26,7 +26,7 @@ To deploy this template, run the following:
 2. Add DNS API keys to the corresponding provider on ./dnsapi directory (using CloudFlare on this example).
 
 	```shell
-	$ egrep 'CF_Key|CF_Email'  dnsapi/dns_cf.sh | head -2
+	$ egrep 'CF_Key|CF_Email' dnsapi/dns_cf.sh | head -2
 	  CF_Key="xxxxxxxxxxxxxxxxxxxxxxxxx"
 	  CF_Email="xxxxxxxxxxxxxxx"
 	```
@@ -34,7 +34,7 @@ To deploy this template, run the following:
 3. Request the wildcard certificate with the required Subject Alternative Names (on the example I'm requesting 2 DNS Names, one for the OpenShift API and another one for the SSL application endpoints running on my OpenShift Cluster).
 
 	```shell
-	$ ./acme.sh --server https://acme-staging-v02.api.letsencrypt.org/directory --test --issue -d console.v37.maklog.xyz  -d *.apps.v37.maklog.xyz --dns  dns_cf
+	$ ./acme.sh --server https://acme-staging-v02.api.letsencrypt.org/directory --test --issue -d console.v37.maklog.xyz -d *.apps.v37.maklog.xyz --dns dns_cf
 	```
 4. Copy generated certs to your preferred location. Certificates will be created under ~/.acme.sh/yourdomain directory
 
