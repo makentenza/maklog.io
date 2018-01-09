@@ -19,8 +19,8 @@ To deploy this template, run the following:
 1. Clone the branch called **_2_** from acme.sh repository. This is the actual branch where support to ACME v2 API is being added.
 
 	```shell
-		$ git clone https://github.com/Neilpang/acme.sh.git -b 2
-  		$ cd acme.sh
+	$ git clone https://github.com/Neilpang/acme.sh.git -b 2
+	$ cd acme.sh
 	```
 
 2. Add DNS API keys to the corresponding provider on ./dnsapi directory (using CloudFlare on this example).
