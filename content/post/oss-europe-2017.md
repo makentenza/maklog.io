@@ -14,7 +14,7 @@ During the Conference, I had the chance to meet some Red Hat colleagues and folk
 
 I had the opportunity to [collaborate](http://sched.co/BxJy) with [Scott McCarty](https://twitter.com/fatherlinux) during his presentation around Linux Container Internals. The material used during the presentation can be found at [this link](https://schd.ws/hosted_files/osseu17/43/Container%20Internals%20Lab%20Presentation.pdf). Feel free to ping [me](https://twitter.com/makentenza) or [Scott](https://twitter.com/fatherlinux) for any question on this topic.
 
-Regarding getting traffic into your Kubernetes Cluster I liked the talk [Effective ingress traffic management with traefik](https://osseu17.sched.com/event/BxI0/effective-ingress-traffic-management-with-traefik-emile-vauge-containous). The [product](https://traefik.io/) looks promising. We will see more of this during the following months with [Istio](https://istio.io/) coming to OpenShift in Feb/Mar as Tech Preview.
+Regarding getting traffic into your Kubernetes Cluster I liked the talk [Effective ingress traffic management with traefik](https://osseu17.sched.com/event/BxI0/effective-ingress-traffic-management-with-traefik-emile-vauge-containous). The [product](https://traefik.io/) looks promising. We will see more of this during the following months with [Istio](https://istio.io/target="_blank) coming to OpenShift in Feb/Mar as Tech Preview.
 
 Some links from the event:
 

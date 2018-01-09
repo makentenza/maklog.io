@@ -4,6 +4,7 @@ title = "Mak's blog"
 theme = "minimal"
 disqusShortname = "mak"
 googleAnalytics = "UA-108378118-1"
+DefaultContentLanguage = "en"
 
 [params]
     author = "Marcos Entenza"
@@ -12,10 +13,17 @@ googleAnalytics = "UA-108378118-1"
     accent = "red"
     showBorder = true
     backgroundColor = "white"
-    font = "Lora" # should match the name on Google Fonts!
+    font = "Sarala"
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "python", "diff", "ini", "json", "shell", "markdown"]
+
+[Languages]
+[Languages.en]
+weight = 1
+
+[Languages.es]
+weight = 2
 
 [[menu.main]]
     url = "/"
@@ -31,10 +39,6 @@ googleAnalytics = "UA-108378118-1"
 #    url = "/project/"
 #    name = "Projects"
 #    weight = 3
-
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
     url = "https://github.com/makentenza/"
