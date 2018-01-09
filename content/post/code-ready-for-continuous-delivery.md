@@ -1,7 +1,7 @@
 ---
 title: "Is your code ready for Continuous Delivery?"
 date: 2018-01-09
-tags: ["aws", "openshift", "pv", "pvc", "snapshot", "backup"]
+tags: ["techmaturity", "openshift", "CD", "Continuous Delivery", "Cloud Native"]
 draft: false
 ---
 Containers have helped revolutionize software development. Microservices and cloud-native applications are now the trendings on the Software industry. With containers, developers can quickly test their code in a production-like environment, which helps to speed up the development process.
