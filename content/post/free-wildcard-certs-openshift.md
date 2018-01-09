@@ -36,9 +36,9 @@ Use the following steps to request a wildcard certificate:
 	```
 4. Copy generated certs to your preferred location. Certificates will be created under ~/.acme.sh/yourdomain directory
 
-Your wildcard is ready to be used now. Follow the documentation to deploy (https://docs.openshift.com/container-platform/latest/install_config/install/advanced_install.html#advanced-install-custom-certificates) or redeploy (https://docs.openshift.com/container-platform/latest/install_config/redeploying_certificates.html#redeploying-master-certificates) custom named certificates for your OpenShift public API, and custom wildcard certificates for your router (https://docs.openshift.com/container-platform/latest/install_config/router/default_haproxy_router.html#using-wildcard-certificates).
+Your wildcard is ready to be used now. Follow the documentation to [deploy](https://docs.openshift.com/container-platform/latest/install_config/install/advanced_install.html#advanced-install-custom-certificates) or [redeploy](https://docs.openshift.com/container-platform/latest/install_config/redeploying_certificates.html#redeploying-master-certificates) custom named certificates for your OpenShift public API, and custom [wildcard certificates for your router](https://docs.openshift.com/container-platform/latest/install_config/router/default_haproxy_router.html#using-wildcard-certificates).
 
-Once you have deployed the certificates on your OpenShift Cluster, and added the intermediate certificate (https://letsencrypt.org/certs/fakeleintermediatex1.pem) to your browser you will see valid certificates for both the public OpenShift API and any application deployed using the router Edge termination.
+Once you have deployed the certificates on your OpenShift Cluster, and added the [intermediate certificate](https://letsencrypt.org/certs/fakeleintermediatex1.pem) to your browser you will see valid certificates for both the public OpenShift API and any application deployed using the router Edge termination.
 
 
 ![Public Master API](/img/ssl01.png "Public Master API")
