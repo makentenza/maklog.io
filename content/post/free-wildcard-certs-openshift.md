@@ -14,8 +14,6 @@ Another limitation right now (this is a limitation on acme.sh script side) is th
 
 Use the following steps to request a wildcard certificate:
 
-To deploy this template, run the following:
-
 1. Clone the branch called **_2_** from acme.sh repository. This is the actual branch where support to ACME v2 API is being added.
 
 	```shell
