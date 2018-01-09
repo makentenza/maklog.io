@@ -12,8 +12,6 @@ The application can be easily deployed from [Ticketmaster's GitHub repository](h
 
 The application is really easy to use. The only thing you need to do is to create a new Asset for your application (or application component) and go through the survey answering questions on 5 different sections: Code, Build and Test, Release, Operate, Optimize.
 
-![survey](/post/img/techmaturity01.png "Tech Maturity survey")
-
 ![survey](/post/img/techmaturity02.png "Tech Maturity survey")
 
 Once you have completed the survey, you will get a score. This is the **_Native Cloud Readiness Score_** for your product. The detailed score will give you a better visibility around the areas you need to improve your product. As you will see during the survey, many questions are directly related to the Continuous Delivery process. Pay special attention to these questions as they will give you an idea of best practices for this.
