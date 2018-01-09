@@ -1,6 +1,6 @@
 ---
 title: "Is your code ready for Continuous Delivery?"
-date: 2018-01-09
+date: 2018-01-08
 tags: ["techmaturity", "openshift", "CD", "Continuous Delivery", "Cloud Native"]
 draft: false
 ---
