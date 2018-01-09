@@ -20,15 +20,15 @@ To deploy this template, run the following:
 
 	```shell
 		$ git clone https://github.com/Neilpang/acme.sh.git -b 2
-  	$ cd acme.sh
+  		$ cd acme.sh
 	```
 
 2. Add DNS API keys to the corresponding provider on ./dnsapi directory (using CloudFlare on this example).
 
 	```shell
 	$ egrep 'CF_Key|CF_Email'  dnsapi/dns_cf.sh | head -2
-		CF_Key="xxxxxxxxxxxxxxxxxxxxxxxxx"
-		CF_Email="xxxxxxxxxxxxxxx"
+	  CF_Key="xxxxxxxxxxxxxxxxxxxxxxxxx"
+	  CF_Email="xxxxxxxxxxxxxxx"
 	```
 
 3. Request the wildcard certificate with the required Subject Alternative Names (on the example I'm requesting 2 DNS Names, one for the OpenShift API and another one for the SSL application endpoints running on my OpenShift Cluster).
