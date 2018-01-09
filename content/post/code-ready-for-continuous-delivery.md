@@ -21,3 +21,9 @@ Once you have completed the survey, you will get a score. This is the **_Native 
 ![score](/post/img/techmaturity03.png "Tech Maturity score")
 
 ![score](/post/img/techmaturity04.png "Tech Maturity score")
+
+Check on the following video how the application can be used.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=LLAg_LxuBzM
+" target="_blank"><img src="http://img.youtube.com/vi/LLAg_LxuBzM/0.jpg"
+alt="Tech Maturity Portal Overview" width="240" height="180" border="10" /></a>
