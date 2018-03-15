@@ -1,6 +1,6 @@
 ---
 title: "Let's Encrypt ACME v2 API: free wildcards certificates and OpenShift"
-date: 2018-03-18
+date: 2018-03-15
 tags: ["let's encrypt", "openshift", "wildcard", "acme", "free certificates", "letsencrypt", "acme.sh"]
 draft: false
 ---
