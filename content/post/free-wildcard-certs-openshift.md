@@ -5,7 +5,7 @@ tags: ["let's encrypt", "openshift", "wildcard", "acme", "free certificates", "l
 draft: false
 ---
 
-This is an update from my previuos blog post around same topic. Let's Encrypt wildcards certificates support is now GA [link](https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579)
+This is an update from my previous blog post around the same topic. Let's Encrypt wildcards certificates support [is now GA](https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579)
 
 
 Wildcards can be requested using the [ACME v2 compatible clients](https://letsencrypt.org/docs/client-options/). For this post, I have used an ACME v2 compatible shell script, [acme.sh](https://github.com/Neilpang/acme.sh).
