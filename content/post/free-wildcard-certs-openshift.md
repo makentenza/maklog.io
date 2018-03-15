@@ -72,9 +72,9 @@ Use the following steps to request a wildcard certificate:
 
 4. Copy generated certs to your preferred location. Certificates will be created under ~/.acme.sh/yourdomain directory
 
-Your wildcard is ready to be used now. Follow the documentation to [deploy](https://docs.openshift.com/container-platform/latest/install_config/install/advanced_install.html#advanced-install-custom-certificates) or [redeploy](https://docs.openshift.com/container-platform/latest/install_config/redeploying_certificates.html#redeploying-master-certificates) custom named certificates for your OpenShift public API, and custom [wildcard certificates for your router](https://docs.openshift.com/container-platform/latest/install_config/router/default_haproxy_router.html#using-wildcard-certificates).
+Your wildcard is now ready to be used. Follow the documentation to [deploy](https://docs.openshift.com/container-platform/latest/install_config/install/advanced_install.html#advanced-install-custom-certificates) or [redeploy](https://docs.openshift.com/container-platform/latest/install_config/redeploying_certificates.html#redeploying-master-certificates) custom named certificates for your OpenShift public API, and custom [wildcard certificates for your router](https://docs.openshift.com/container-platform/latest/install_config/router/default_haproxy_router.html#using-wildcard-certificates).
 
-5. As an example, in order to deploy your OpenShift Container Platform with your custom certificates, use the following steps assuming you are using the [`Advance Installation`](https://docs.openshift.com/container-platform/3.7/install_config/install/advanced_install.html).
+- As an example, in order to deploy your OpenShift Container Platform with your custom certificates, use the following steps assuming you are using the [`Advance Installation`](https://docs.openshift.com/container-platform/3.7/install_config/install/advanced_install.html).
 
 	- Copy required certificates to your Ansible inventory directory
 		```shell
@@ -85,7 +85,7 @@ Your wildcard is ready to be used now. Follow the documentation to [deploy](http
 
 	- Add the following entries to your `OSEv3` group vars:
 
-		```yaml
+		```shell
 		openshift_master_overwrite_named_certificates=true
 		openshift_master_named_certificates=[{"certfile": "{{ inventory_dir }}/yourdomain.cer", "keyfile": "{{ inventory_dir }}/yourdomain.key", "names": ["your_master_api_dns_name"], "cafile": "{{ inventory_dir }}/ca.cer"}]
 		```
