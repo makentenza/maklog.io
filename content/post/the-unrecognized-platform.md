@@ -2,7 +2,7 @@
 title: "The Unrecognized Platform"
 date: 2018-11-30
 tags: ["openshift", "kubernetes", "paas", "containers"]
-draft: true
+draft: false
 ---
 
 It has been almost 3 years since I started working with OpenShift/k8s and a bit more than that with what we call now Linux Containers. During this period I've helped Customers from many different industries to move their application workloads to OpenShift. I had the opportunity to work on both greenfield and brownfield projects. I migrated or created simple microservices to run in OpenShift and take advantage from the features the platform brings to accelerate the development process. I helped to break old big monolithics into small microservices and build a CI/CD ecosystem around them. These are the typical use cases deployed when using OpenShift/k8s. I recently had the opportunity to work on different use cases where we successfully demonstrated that the platform limits and possibilities are still not fully discovered.
