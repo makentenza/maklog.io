@@ -1,2 +1,2 @@
-# maklog.io
-Mak's Blog at http://maklog.io
+# maklog.xyz
+Mak's Blog at http://maklog.xyz
