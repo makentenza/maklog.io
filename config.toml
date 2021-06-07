@@ -1,4 +1,4 @@
-baseURL = "http://maklog.io/"
+baseURL = "http://maklog.xyz/"
 languageCode = "en-us"
 title = "Mak's blog"
 theme = "minimal"
